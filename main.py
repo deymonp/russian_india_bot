@@ -6,8 +6,8 @@ from telegram import Bot
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # === CONFIGURATION ===
-TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
-CHANNEL_ID = "@your_channel_username"
+TOKEN = "7818282877:AAFEuuksW8xjH111cRFOv2iTm8bZjqjpWh4"
+CHANNEL_ID = -1002850808376
 TIMEZONE = pytz.timezone("Asia/Kolkata")  # Adjust as needed
 POST_HOUR = 12
 POST_MINUTE = 0

@@ -213,7 +213,7 @@ async def main() -> None:
     application.add_handler(CommandHandler("current_index", current_index))
 
     logger.info("Bot started. Press Ctrl+C to stop.")
-    await application.start_polling(allowed_updates=Update.ALL_TYPES, close_loop=False)
+    await application.run_polling(allowed_updates=Update.ALL_TYPES)
 
     # Cleanly shut down the scheduler when the bot stops (e.g., via Ctrl+C or kernel stop)
     scheduler.shutdown()
